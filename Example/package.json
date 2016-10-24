@@ -1,0 +1,23 @@
+{
+  "name": "Example",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+		"lint": "eslint",
+		"flow": "flow"
+  },
+  "dependencies": {
+    "react-native-vector-icons": "^2.0.3",
+    "react": "15.3.2",
+    "react-native": "0.35.0",
+    "react-native-router-flux": "^3.33.2",
+    "react-native-router-flux-nav-bar": "file:.."
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.0.0",
+    "eslint": "^3.2.0",
+    "eslint-plugin-react": "^6.4.1",
+    "flow-lib": "0.0.0-pre"
+  }
+}

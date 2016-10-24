@@ -1,0 +1,32 @@
+{
+  "name": "react-native-router-flux-nav-bar",
+  "version": "1.0.0",
+  "description": "A cross platform NavBar component for react-native-router-flux",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+		"flow": "flow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sprmn/react-native-router-flux-nav-bar.git"
+  },
+  "author": "Frank van der Hoek (sprmn)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sprmn/react-native-router-flux-nav-bar/issues"
+  },
+  "homepage": "https://github.com/sprmn/react-native-router-flux-nav-bar#readme",
+  "peer-dependencies": {
+    "react": "^15.3.2",
+    "react-native": "^0.35.0",
+    "react-native-router-flux": "^3.36.0",
+    "react-native-vector-icons": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.0.0",
+    "eslint": "3.2.0",
+    "eslint-plugin-react": "6.2.0",
+    "flow-lib": "0.0.0-pre"
+  }
+}
