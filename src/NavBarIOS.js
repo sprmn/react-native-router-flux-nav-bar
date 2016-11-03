@@ -28,9 +28,9 @@ const NavBar = (props: NavBarProps) => {
 	}
 
 	// Find button configurations
-	const shouldRenderLeftButton = selected.leftButtonOnPress
+	const shouldRenderLeftButton = !!selected.leftButtonOnPress
 	&& !!(selected.leftButtonText || selected.leftButtonIconName);
-	const shouldRenderRightButton = selected.rightButtonOnPress
+	const shouldRenderRightButton = !!selected.rightButtonOnPress
 	&& !!(selected.rightButtonText || selected.rightButtonIconName);
 	const shouldRenderBackButton = !shouldRenderLeftButton
 		&& (props.navigationState.index !== 0);
