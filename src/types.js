@@ -4,6 +4,8 @@
  */
 
 export type NavBarProps = {
+	navBarBorderWidth?: number,
+	navBarBorderColor?: string,
 	navBarColor?: string,
 	navigationState: Object,
 

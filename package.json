@@ -1,6 +1,6 @@
 {
   "name": "react-native-router-flux-nav-bar",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A cross platform NavBar component for react-native-router-flux",
   "main": "index.js",
   "scripts": {

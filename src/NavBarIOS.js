@@ -52,6 +52,8 @@ const NavBar = (props: NavBarProps) => {
 			style={[
 				styles.navBar,
 				(props.navBarColor && {backgroundColor: props.navBarColor}) || {},
+				(props.navBarBorderColor && {borderBottomColor: props.navBarBorderColor}) || {},
+				(props.navBarBorderWidth && {borderBottomWidth : props.navBarBorderWidth}) || {},
 				padding
 			]}
 		>
@@ -112,7 +114,6 @@ const styles = StyleSheet.create({
 		left: 0,
 		height: 64,
 		paddingTop: 20,
-		borderBottomWidth: 0.5,
 		borderBottomColor: '#828287',
 		position: 'absolute',
 		flexDirection: 'row',
